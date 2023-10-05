@@ -1,12 +1,10 @@
 import customtkinter as tk
 
-from ModuloIF import *
-tk.set_appearance_mode("System")
+from Modulos import *
 
-janela=CriarJanelaP("Milim sem WIFI","400x300",1)
+janela = CriarJanela("Milim sem WIFI", "400x300", 1)
 Lista = ["Item 1", "Item 2", "Item 3", "Item 4"]
-combo = CriarComboBox(janela,Lista,100,30,6,6)
-
+combo = CriarComboBox(janela,100,30, Lista, 6, 6)
 
 
 

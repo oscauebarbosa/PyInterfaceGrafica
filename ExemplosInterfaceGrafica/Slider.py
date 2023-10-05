@@ -1,8 +1,9 @@
-import customtkinter as Tk
-from ModuloIF import *
-tk .set_appearance_mode("System")
 
+from Modulos import *
 
+janela = CriarJanela("Janela", "500x400",1)
+
+slider = CriarSlider(janela, 100, 30, 6, 6)
 
 
 
